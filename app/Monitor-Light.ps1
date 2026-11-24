@@ -1,7 +1,7 @@
 <#
     Product : Monitor-Light
     Version : 2.4
-    Author  : LoatriX
+    Author  : LoatrX
     Icons   : Bootstrap Icons (MIT)
 #>
 
@@ -14,8 +14,8 @@ Add-Type -AssemblyName System.Xaml
 
 $script:AppName = "Monitor-Light"
 $script:Version = "2.4"
-$script:Byline = "by LoatriX"
-$script:GitHubUrl = "https://github.com/LoatriX/Monitor-Light"
+$script:Byline = "by LoatrX"
+$script:GitHubUrl = "https://github.com/LoatrX/Monitor-Light"
 $script:AppRoot = Split-Path -Parent $PSScriptRoot
 $script:AssetsPath = Join-Path $script:AppRoot "assets\img"
 $script:UserProfilePath = Join-Path $script:AppRoot "user_profil"
@@ -702,7 +702,7 @@ $emptyLabel.Size=[System.Drawing.Size]::new(350,48)
 $displayPanel.Controls.Add($emptyLabel)
 
 $footerLabel=New-Object System.Windows.Forms.Label
-$footerLabel.Text="by LoatriX"
+$footerLabel.Text="by LoatrX"
 $footerLabel.Font=New-Object System.Drawing.Font("Segoe UI",7.5)
 $footerLabel.ForeColor=$colorMuted
 $footerLabel.TextAlign=[System.Drawing.ContentAlignment]::MiddleRight
